@@ -1,0 +1,42 @@
+{
+  "name": "videoflowonline-viewer-example",
+  "homepage": ".",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "typescript": "^4.4.3",
+    "videoflowonline-streamer": "^0.1.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
+    "@types/react": "^17.0.27",
+    "http-proxy-middleware": "^2.0.1",
+    "ipfs-http-client": "45.0.0"
+  },
+  "eslintConfig": {
+    "rules": {}
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "https://livepeer.com/"
+}
